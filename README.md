@@ -3,31 +3,31 @@ Content Engine – AI/ML Document Comparison Tool
 📄 Overview
 
 This project builds a Content Engine that:
-	•	Ingests multiple PDF documents,
-	•	Generates local embeddings using sentence-transformers,
-	•	Indexes content in a FAISS vector store,
-	•	Provides a retrieval-based querying interface,
-	•	Runs fully offline with no API dependency.
+•	Ingests multiple PDF documents,
+•	Generates local embeddings using sentence-transformers,
+•	Indexes content in a FAISS vector store,
+•	Provides a retrieval-based querying interface,
+•	Runs fully offline with no API dependency.
 
 ⸻
 
 🚀 Features
-	•	Multi-PDF ingestion
-	•	Local embedding generation with all-MiniLM-L6-v2
-	•	FAISS vector storage (to be added)
-	•	Raw retrieval of relevant document chunks
-	•	Streamlit UI (to be added)
-	•	Optional local LLM generation (to be added)
+•	Multi-PDF ingestion
+•	Local embedding generation with all-MiniLM-L6-v2
+•	FAISS vector storage (to be added)
+•	Raw retrieval of relevant document chunks
+•	Streamlit UI (to be added)
+•	Optional local LLM generation (to be added)
 
 ⸻
 
 🛠️ Tech Stack
-	•	LlamaIndex
-	•	Sentence-Transformers (all-MiniLM-L6-v2)
-	•	FAISS
-	•	Streamlit (planned)
-	•	Python 3.13
- 
+•	LlamaIndex
+•	Sentence-Transformers (all-MiniLM-L6-v2)
+•	FAISS
+•	Streamlit (planned)
+•	Python 3.13
+
 🧑‍💻 How to Run
 
 1. Clone the Repositorygit
