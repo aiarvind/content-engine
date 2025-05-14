@@ -6,17 +6,6 @@ from llama_index.core import Settings
 from llama_index.core.embeddings import BaseEmbedding
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-
-'''
-✅ Phase 2: Document Processing & Indexing
-	1.	Write Code to Load the PDFs
-	•	Read and extract text from all files in /pdfs.
-	2.	Build a Document Index
-	•	Use LlamaIndex to index the loaded documents.
-	3.	Create a Query Engine
-	•	Turn the index into a queryable object so you can ask questions.
-'''
-
 # class SentenceTransformerEmbedder(BaseEmbedding):
 #     def __init__(self):
 #         self.model = SentenceTransformer("all-MiniLM-L6-v2")
